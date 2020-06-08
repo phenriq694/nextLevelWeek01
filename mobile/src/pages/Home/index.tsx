@@ -1,16 +1,14 @@
 import React from 'react';
-import { StyleSheet, View, Text } from 'react-native';
+import { StyleSheet, View, Image } from 'react-native';
 
 const Home = () => {
   return (
     <View>
-      <Text>
-        Hello World
-      </Text>
+      <Image source={require('../../assets/logo.png')} />
     </View>
   );
 };
-
+ 
 export default Home;
 
 const styles = StyleSheet.create({
