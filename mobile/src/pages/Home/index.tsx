@@ -1,8 +1,14 @@
 import React from 'react';
-import { StyleSheet,View } from 'react-native';
+import { StyleSheet, View, Text } from 'react-native';
 
 const Home = () => {
-  return <View />
+  return (
+    <View>
+      <Text>
+        Hello World
+      </Text>
+    </View>
+  );
 };
 
 export default Home;
