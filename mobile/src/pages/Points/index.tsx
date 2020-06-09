@@ -1,3 +1,13 @@
+import React from 'react';
+import { StyleSheet, View } from 'react-native';
+
+const Points = () => {
+  return <View />
+};
+
+export default Points;
+
+/*
 const styles = StyleSheet.create({
   container: {
     flex: 1,
@@ -93,4 +103,4 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     fontSize: 13,
   },
-});
+});*/
