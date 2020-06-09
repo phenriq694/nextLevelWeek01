@@ -2,7 +2,7 @@ import React from 'react';
 import Constants from 'expo-constants';
 import { Feather as Icon } from '@expo/vector-icons';
 import { useNavigation } from '@react-navigation/native';
-import { StyleSheet, View, TouchableOpacity, Text, ScrollView, Image } from 'react-native';
+import { StyleSheet, View, TouchableOpacity, Text, ScrollView, Image, SafeAreaView } from 'react-native';
 import MapView, { Marker } from 'react-native-maps';
 import { SvgUri } from 'react-native-svg';
 
@@ -18,7 +18,7 @@ const Points = () => {
   }
 
   return (
-    <View style={styles.container}>
+    <SafeAreaView style={styles.container}>
       <TouchableOpacity onPress={handleNavigateBack}>
         <Icon name="arrow-left" size={20} color="#34cb79" />
       </TouchableOpacity>
@@ -55,24 +55,24 @@ const Points = () => {
       <View style={styles.itemsContainer}>
         <ScrollView horizontal showsHorizontalScrollIndicator={false}>
           <TouchableOpacity style={styles.item} onPress={() => {}}>
-            <SvgUri width={42} height={42} uri="http://192.168.15.43:3333/uploads/lampadas.svg" />
+            <SvgUri width={42} height={42} uri="http://192.168.15.47:3333/uploads/lampadas.svg" />
             <Text style={styles.itemTitle}>Lâmpadas</Text>
           </TouchableOpacity>
           <TouchableOpacity style={styles.item} onPress={() => {}}>
-            <SvgUri width={42} height={42} uri="http://192.168.15.43:3333/uploads/lampadas.svg" />
+            <SvgUri width={42} height={42} uri="http://192.168.15.47:3333/uploads/lampadas.svg" />
             <Text style={styles.itemTitle}>Lâmpadas</Text>
           </TouchableOpacity>
           <TouchableOpacity style={styles.item} onPress={() => {}}>
-            <SvgUri width={42} height={42} uri="http://192.168.15.43:3333/uploads/lampadas.svg" />
+            <SvgUri width={42} height={42} uri="http://192.168.15.47:3333/uploads/lampadas.svg" />
             <Text style={styles.itemTitle}>Lâmpadas</Text>
           </TouchableOpacity>
           <TouchableOpacity style={styles.item} onPress={() => {}}>
-            <SvgUri width={42} height={42} uri="http://192.168.15.43:3333/uploads/lampadas.svg" />
+            <SvgUri width={42} height={42} uri="http://192.168.15.47:3333/uploads/lampadas.svg" />
             <Text style={styles.itemTitle}>Lâmpadas</Text>
           </TouchableOpacity>
         </ScrollView>
       </View>
-    </View>
+    </SafeAreaView>
   );
 };
 
@@ -83,7 +83,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     paddingHorizontal: 32,
-    paddingTop: 20 + Constants.statusBarHeight,
+    paddingTop: 32,
   },
 
   title: {
