@@ -74,8 +74,8 @@ const Points = () => {
     navigation.goBack();
   }
 
-  function hanldeNavigateToDetail() {         
-    navigation.navigate('Detail');
+  function hanldeNavigateToDetail(id: number) {         
+    navigation.navigate('Detail', { point_id: id });
   }
 
   function handleSelectItem(id: number) {
@@ -114,7 +114,7 @@ const Points = () => {
               <Marker
                 key={String(point.id)}
                 style={styles.mapMarker}
-                onPress={hanldeNavigateToDetail}
+                onPress={() => {hanldeNavigateToDetail(point.id)}}
                 coordinate={{
                   latitude: point.latitude,
                   longitude: point.longitude,
