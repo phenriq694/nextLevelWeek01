@@ -45,6 +45,7 @@ Para cadastrar um ponto de coleta:
 POST '/points' 
 
 Request Body
+Multipart
 {
   "name": "",
   "email": "",
@@ -54,6 +55,7 @@ Request Body
   "city": "",
   "uf": "",
   "items": ""
+  "image": File
 }
 ```
 
