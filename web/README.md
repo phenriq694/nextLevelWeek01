@@ -1,44 +1,62 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">
+  <img
+    alt="React" src="https://user-images.githubusercontent.com/54601930/73386759-30e0c100-42ae-11ea-8587-fc4a40e63e6a.png"
+    width="200px"
+  />
+  <br />
+  <strong>Ecoleta Frontend</strong>
+</h1>
 
-## Available Scripts
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/54601930/77370834-7d8dc900-6d40-11ea-87e4-7add6251f26b.png" width="800px">
+</p>
 
-In the project directory, you can run:
+<h2>
+  <p align="center">
+    <img src="https://user-images.githubusercontent.com/54601930/84848199-19219380-b029-11ea-9ad7-f771bf0f7e60.png">
+  </p>
+</h2>
 
-### `yarn start`
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/54601930/84972379-19876080-b0f5-11ea-862e-fadb975c1ef8.gif">
+</p>
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+### Design das Páginas
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/54601930/84970220-9bc15600-b0f0-11ea-9e63-30d0d2fb1a23.png">
+  <img src="https://user-images.githubusercontent.com/54601930/84970205-95cb7500-b0f0-11ea-9cf6-5b58fc2d36c5.png">
+  <img src="https://user-images.githubusercontent.com/54601930/84970215-99f79280-b0f0-11ea-8198-52c7be5e533c.png">
+  <img src="https://user-images.githubusercontent.com/54601930/84970219-9bc15600-b0f0-11ea-8ea9-d2492c6dbc1f.png">
+</p>
 
-### `yarn test`
+## Bibliotecas:
+- typescript;
+- react-dom;
+- react-dropzone;
+- react-icons;
+- leaflet;
+- react-leaflet;
+- axios;
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
+## Como usar:
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Para clonar essa aplicação, você precisará [Git](https://git-scm.com), [Node.js v10.16][nodejs] ou superior + [Yarn v1.21.1][yarn] ou superior instalado no seu computador. No seu terminal:
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+```bash
+# Clone este repositório
+$ git clone https://github.com/phenriq694/nextLevelWeek01.git
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Vá para este repositório
+$ cd nextLevelWeek01/web
 
-### `yarn eject`
+# Instale as dependências
+$ yarn
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+# Inicie a aplicação
+$ yarn start
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+[nodejs]: https://nodejs.org/
+[yarn]: https://yarnpkg.com/
